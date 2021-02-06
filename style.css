@@ -1,0 +1,59 @@
+header{
+    font-family: Fredoka One;
+    color: #FFFFFF;
+    background-color: #2d2638;
+    position: fixed;
+    width: 100%;
+    padding: 14px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body{
+    margin: 0;
+    color: white;
+}
+
+.formal{
+    font-family: Abril Fatface;
+}
+
+.informal{
+    font-family: DM Sans;
+}
+
+.console{
+    font-family: Roboto Mono;
+}
+
+.content {
+    margin-top: 45px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-family: DM Sans;
+    color: #2d2638;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0, 10px, 0, 0;
+}
+
+.container li {
+    flex: auto;
+}
+
+.bordered{
+    border-color: #e9e9e9;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+}
+
+a{
+text-decoration: none;
+}
