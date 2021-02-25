@@ -1,3 +1,4 @@
+/*Unused Fonts' Names:-Abril Fatface-Roboto Mono*/
 p{margin: 0;}
 .container {padding: 0;}
 a {text-decoration: none; color: inherit;}
@@ -49,11 +50,3 @@ img{
     transition: all .5s;
 }
 img:hover{width: 100%;}
-
-/*
-Font names:
--Abril Fatface
--DM Sans
--Roboto Mono
--Fredoka One
-*/
