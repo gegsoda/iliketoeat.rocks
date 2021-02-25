@@ -1,3 +1,14 @@
+p{margin: 0;}
+.container {padding: 0;}
+a {text-decoration: none; color: inherit;}
+img::selection, p::selection, br::selection{background: #5025799a;}
+
+body{
+    margin: 0;
+    color: white;
+    padding-bottom: 20px;
+}
+
 header{
     font-family: Fredoka One;
     color: #FFFFFF;
@@ -5,23 +16,10 @@ header{
     position: fixed;
     width: 100%;
     padding: 14px;
-    -webkit-user-select: none;        
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-p{
-    margin: 0;
-}
-p::selection {
-    background: #5025799a;
-}
-
-body{
-    margin: 0;
-    color: white;
-    padding-bottom: 20px;
 }
 
 .content {
@@ -30,17 +28,6 @@ body{
     margin-right: 16px;
     font-family: DM Sans;
     color: #2d2638;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-}
-
-.container li {
-    flex: auto;
 }
 
 .bordered{
@@ -54,49 +41,19 @@ body{
     box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px 0px;
     border-color: #e9e9e9;
 }
-
-.bordered:hover{
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    border-color: #5025799a;
-}
-
-a {
-    text-decoration: none;
-}
-
-.fontsoopslol{
-    font-family: Abril Fatface;
-    font-family: DM Sans;
-    font-family: Roboto Mono;
-}
-
-.b {
-    position: relative;
-  }
-  
-.c .hover:before, .b:after {
-    content: "";
-    position: absolute;
-    bottom: -6px;
-    width: 0px;
-    height: 5px;
-    opacity: 0;
-    transition: all .5s;
-    background-color: #5800e6;
-    left: 0;
-}
-
-.b:before, .c:hover .b:after {
-    width: 100%;
-    opacity: 1;
-}
+.bordered:hover{box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; border-color: #5025799a;}
 
 img{
     height: 60px;
     width: 60px;
     transition: all .5s;
 }
+img:hover{width: 100%;}
 
-img:hover{
-    width: 100%;
-}
+/*
+Font names:
+-Abril Fatface
+-DM Sans
+-Roboto Mono
+-Fredoka One
+*/
