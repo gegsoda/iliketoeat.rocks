@@ -6,7 +6,7 @@
     <link rel='stylesheet' type='text/css' href='style.css'>
     <link rel="icon" href="/media/icon.svg" type="image/icon type">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Sans&family=Fredoka+One&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <title>MySubjects - Login</title>
+    <title>MySubjects - Home</title>
     <script>
         function login() {
             window.location.href="homepage.html";
@@ -22,11 +22,23 @@
     <br>
     <div class="content">
         <p>
-            Please login to continue:
+            Select an option:
         </p>
-        <input class="textbox" type="text" placeholder="Student ID"><br>
-        <input class="textbox" type="password" placeholder="Password"> <br>
-        <input class="button" type="button" value="Login" onClick="login()">
+        <a href="choice.html">
+            <div class="bordered">
+                Choose your subjects
+            </div>
+        </a>
+        <a href="passwordchange.html">
+            <div class="bordered">
+                Change your password
+            </div>
+        </a>
+        <a href="mailto:grmazonakis@protonmail.com">
+            <div class="bordered">
+                Send an email to Alan Turing to help you with your computer science homework
+            </div>
+        </a>
     </div>
 </body>
 </html>
