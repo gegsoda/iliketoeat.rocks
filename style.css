@@ -3,6 +3,17 @@ html{zoom: 1.5; }
 p{margin: 0;}
 a {text-decoration: none; color: inherit;}
 img::selection, p::selection, br::selection{background: #6d4097;}
+img{
+    width: 100%;
+    border-radius: 15px;
+    transition: all, 0.1s;
+    outline-color: #21133a;
+    outline-style: solid;
+    outline-width:0px
+}
+img:hover{
+    outline-width:5px
+}
 
 br, header{
     -webkit-user-select: none;
