@@ -2,17 +2,10 @@
 html{zoom: 1.5; }
 p{margin: 0;}
 a {text-decoration: none; color: inherit;}
-img::selection, p::selection, br::selection{background: #6d4097;}
+img::selection, p::selection, br::selection, div::selection{background: #2d2638; color:#e9e9e9;}
 img{
     width: 100%;
     border-radius: 15px;
-    transition: all, 0.1s;
-    outline-color: #21133a;
-    outline-style: solid;
-    outline-width:0px
-}
-img:hover{
-    outline-width:5px
 }
 
 br, header{
@@ -64,6 +57,7 @@ header{
 .textbox:hover{border-color: #2d2638; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;}
 
 .button{
+    border-radius: 15px;
     width: 100%;
     border: none;
     padding: 10px;
@@ -73,8 +67,11 @@ header{
     transition: all .3s;
     box-shadow: rgba(0, 0, 0, 0) 0px 5px 15px 0px;
     font-family: DM Sans;
+    outline-color: #21133a;
+    outline-style: solid;
+    outline-width:0px
 }
-.button:hover{background-color: #21133a; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;}
+.button:hover{background-color: #e9e9e9; color: #2d2638; box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; outline-width: 5px;}
 
 .dropdown{
     border-style: solid;
