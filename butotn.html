@@ -17,14 +17,31 @@
     </header>
     <br>
     <div class="content">
-        Press the btuton:<br>
-        <audio id="audio" src="boom.mp3"></audio>
+        Press the btutons:<br>
+        (turn volgume on)<br>
+        <audio id="boom" src="boom.mp3"></audio>
         <button class="button" onClick="
-        const origAudio = document.getElementById('audio');
+        const origAudio = document.getElementById('boom');
         const newAudio = origAudio.cloneNode()
         newAudio.play()
         ">
-        hee hee</button>
+        boom</button>
+
+        <audio id="ding" src="ding.mp3"></audio>
+        <button class="button" onClick="
+        const origAudio = document.getElementById('ding');
+        const newAudio = origAudio.cloneNode()
+        newAudio.play()
+        ">
+        ding</button>
+
+        <audio id="dog" src="what the dog doin.mp3"></audio>
+        <button class="button" onClick="
+        const origAudio = document.getElementById('dog');
+        const newAudio = origAudio.cloneNode()
+        newAudio.play()
+        ">
+        dog</button>
     </div>
 </body>
 </html>
